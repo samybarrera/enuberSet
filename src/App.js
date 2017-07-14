@@ -24,6 +24,7 @@ import {Form} from 'react-bootstrap';
 
 
 
+
 class App extends Component {
   render() {
     return (
@@ -87,26 +88,38 @@ class App extends Component {
  </section>
  
 
- <section id="somos">
+ <section id="nosotros">
 
-<div class="light-wrapper">
-   <div class="container_inner">
-          <h3 class="semos">¿Que somos?</h3>
+
+          <h3 id="main-title">
+          ¿Que somos?
+          </h3>
+
+          <div id="row wow fadeIn animated">
+
+          
 
           <div id="col-sm-4">
+          
+        
+          
           <img id="img-responsive" src="fondo.jpg"/>
 
           </div>
 
-            <div id="pach">
+          <div id="col-sm-8">
 
             <p>
             Somos una empresa seria y en crecimiento 100% Pachuqueña, 
             joven y con gran visión formada por gente entusiasta y profesional. 
-            Prestamos servicios de traslado mediante el arrendamiento de auto con chofer.</p></div>
-    </div>
+            Prestamos servicios de traslado mediante el arrendamiento de auto con chofer.</p>
 
- </div>
+          </div>
+
+          </div>
+    
+
+ 
             
  </section>
 
