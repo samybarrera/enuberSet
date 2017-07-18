@@ -34,21 +34,29 @@ class App extends Component {
         <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#"><h1>SET</h1></a>
+        <div href="#">
+
+            <a href="#">
+
+               <img src="fondo22.jpeg" id="retina"/>
+
+            </a>
+
+        </div>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav>
-         <li><a href="nuestras">Nuestras Unidades</a></li>
-         <li><a href="nuestras">¿Que Somos?</a></li>
+         <li><a href="#home">SET</a></li>
+         <li><a href="nosotros">¿Que Somos?</a></li>
          <li><a href="nuestras">Mision</a></li>
          <li><a href="nuestras">Vision</a></li>
          <li><a href="nuestras">¿por que es el mejor servicio?</a></li>
          <li><a href="nuestras">¿Como podemos trabajar?</a></li>
          <li><a href="nuestras">Comprobantes y Facturas</a></li>
          <li><a href="nuestras">Lema</a></li>
-         <li><a href="nuestras">Contacto</a></li>
+         <li><a href="nuestras">Contacto</a></li> 
         
       </Nav>
       
@@ -126,7 +134,7 @@ class App extends Component {
 
 <section id="mision">
 <div id="misio">
-            <img id="el" src="fondo.png"/>
+            
             <div id="texb"> Mision<p>          
            Ofrecemos el mejor traslado con la mayor seguridad, 
            comodidad y atención, haciendo que su viaje sea una nueva experiencia en 
@@ -140,7 +148,7 @@ class App extends Component {
 
 <section id="vision">
 <div id="visio">
-<img id="el" src="fondo.png"/>
+
             <div id="texc">Visión<p>
             Ser la mejor opción de transporte 
             en cualquier tipo de viaje: Negocios, 
@@ -155,7 +163,7 @@ class App extends Component {
 
 <section id="servicio">
 <div id="servi">
-<img id="el" src="fondo.png"/>
+
             <div id="texd">¿Por que es el mejor servicio?<p>
             Somos una empresa seria y en crecimiento 100% Pachuqueña, 
             joven y con gran visión formada por gente entusiasta y profesional. 
@@ -173,7 +181,7 @@ class App extends Component {
 
 <section id="trabajar">
 <div id="trabajo">
-<img id="el" src="fondo.png"/>
+
             <div id="texe">¿como podemos trabajar?<p>
             <p>Mediante vales o comprobantes de traslados.</p>
 
@@ -191,7 +199,7 @@ class App extends Component {
 
 <section id="facturas">
 <div id="factuu">
-            <img id="el" src="fondo.png"/>
+            
 
             <img id="fotuno" src="fac1.png"/>
 
@@ -204,7 +212,7 @@ class App extends Component {
 
 <section id="lema">
 <div id="lemm">
-            <img id="el" src="fondo.png"/>
+            
             <div id="texg">
 
             <p>
@@ -221,7 +229,7 @@ class App extends Component {
 
 <section id="contacto">
 <div id="contac">
-            <img id="el" src="fondo.png"/>
+            
             <div id="texhhh">
             <p id="esss">
             Envia tu informacion
