@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-
+import './App.css';
+import Slideee from './Slideee'
 
 import logo from './logo.svg';
-import './App.css';
+
 import {Nav} from 'react-bootstrap';
 import {Navbar} from 'react-bootstrap';
 import {NavItem} from 'react-bootstrap';
 import {NavDropdown} from 'react-bootstrap';
 import {MenuItem} from 'react-bootstrap';
-import {Carousel} from 'react-bootstrap';
 import {Tab} from 'react-bootstrap';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
@@ -26,6 +26,17 @@ import {Form} from 'react-bootstrap';
 
 
 class App extends Component {
+
+  constructor(){
+    super();
+
+    this.state = {
+      nombre: "KushH"
+    }
+  }
+
+
+
   render() {
     return (
       <div className="App">
@@ -63,73 +74,11 @@ class App extends Component {
     </Navbar.Collapse>
   </Navbar>
 
-<section id="home" >
-<div id="carru1">
-<Carousel>
-    <Carousel.Item>
-      <img width={900} height={500} alt="900x500" src="uberdrow2.jpg"/>
-      <Carousel.Caption>
-        <h3>Somos una empresa</h3>
-        <p> seria y en crecimiento 100% Pachuqueña.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img width={900} height={500} alt="900x500" src="uberdrow3.jpg"/>
-      <Carousel.Caption>
-        <h3>transportacion en camionetas blindadas</h3>
-        <p>y personal calificado</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img width={900} height={500} alt="900x500" src="uberdrow5.jpg"/>
-      <Carousel.Caption>
-        <h3>SET servicio de alquiler de automóviles de lujo con chofer</h3>
-        <p>Servicio a dispocicion por hora y por dia</p>
-        <p>Personal calificado</p>
-        <p>Choferes bilingües</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-  </Carousel>
 
 
- </div>
- </section>
- 
 
- <section id="nosotros">
-
-
-          <h3 id="main-title">
-          ¿Que somos?
-          </h3>
-
-          <div id="row wow fadeIn animated">
-
-          
-
-          <div id="col-sm-4">
-          
-        
-          
-          <img id="img-responsive" src="fondo.jpg"/>
-
-          </div>
-
-          <div id="col-sm-8">
-
-            <p>
-            Somos una empresa seria y en crecimiento 100% Pachuqueña, 
-            joven y con gran visión formada por gente entusiasta y profesional. 
-            Prestamos servicios de traslado mediante el arrendamiento de auto con chofer.</p>
-
-          </div>
-
-          </div>
-    
 
  
-            
- </section>
 
 
 <section id="mision">
