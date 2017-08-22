@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import './Slide.css';
 
 import {Carousel} from 'react-bootstrap';
 
@@ -15,21 +16,21 @@ class Slide extends Component{
     <Carousel.Item>
       <img width={900} height={500} alt="900x500" src="uberdrow2.jpg"/>
       <Carousel.Caption>
-        <h3>Somos una empresa</h3>
+        <p>Somos una empresa</p>
         <p> seria y en crecimiento 100% Pachuqueña.</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img width={900} height={500} alt="900x500" src="uberdrow3.jpg"/>
       <Carousel.Caption>
-        <h3>transportacion en camionetas blindadas</h3>
+        <p>transportacion en camionetas blindadas</p>
         <p>y personal calificado</p>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
       <img width={900} height={500} alt="900x500" src="uberdrow5.jpg"/>
       <Carousel.Caption>
-        <h3>SET servicio de alquiler de automóviles de lujo con chofer</h3>
+        <p>SET servicio de alquiler de automóviles de lujo con chofer</p>
         <p>Servicio a dispocicion por hora y por dia</p>
         <p>Personal calificado</p>
         <p>Choferes bilingües</p>

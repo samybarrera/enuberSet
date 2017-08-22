@@ -423,12 +423,7 @@ a {
 
 //// slider
 
-////home
 
-section#home{
-    padding-top: 293px;
-    margin-top: -293px;
-}
 
 div#light-wrapper, body {
     background: #fcfcfc;
@@ -572,18 +567,6 @@ section{
     box-sizing: border-box;
 }
 
-
-@media (max-width: 767px){
-
-[class*="col-sm-4"] {
-    margin-bottom: 30px;
-}
-}
-#container{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 20px;
-}
 
 
 
