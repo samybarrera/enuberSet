@@ -824,16 +824,17 @@ footer ul.circled li:before {
 /*-----------------------------------------------------------------------------------*/
 /*	03. HEADER
 /*-----------------------------------------------------------------------------------*/
+
 .navbar {
     z-index: 9998;
     border: 0;
     border-radius: 0;
     min-height: inherit;
-    width: 100%;
+    width: 500%;
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0;
+    padding: 10px;
     margin: 0;
     background: rgba(31,33,36,0.45);
     box-shadow: none;
@@ -876,7 +877,7 @@ footer ul.circled li:before {
     position: relative;
     box-shadow: none;
     float: right;
-    margin: 20px 0 0 !important;
+    margin: 5px 0 0 !important;
 }
 .navbar .navbar-brand a {
     transition: none
@@ -892,7 +893,7 @@ footer ul.circled li:before {
     margin: 0 0 0 38px
 }
 .navbar .navbar-nav > li > a {
-    padding: 40px 0px;
+    padding: 10px 0px;
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 1px;

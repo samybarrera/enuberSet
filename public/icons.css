@@ -2,37 +2,37 @@
 
 @font-face {
   font-family: 'fontello';
-  src: url("fontello/fontello.eot");
-  src: url("fontello/fontello.eot?#iefix") format('embedded-opentype'), url("fontello/fontello.woff") format('woff'), url("fontello/fontello.ttf") format('truetype'), url("fontello/fontello.svg#fontello") format('svg');
+  src: url("fontello.eot");
+  src: url("fontello.eot?#iefix") format('embedded-opentype'), url("fontello.woff") format('woff'), url("fontello.ttf") format('truetype'), url("fontello.svg#fontello") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'fontello-social';
-  src: url("fontello/fontello-social.eot");
-  src: url("fontello/fontello-social.eot?#iefix") format('embedded-opentype'), url("fontello/fontello-social.woff") format('woff'), url("fontello/fontello-social.ttf") format('truetype'), url("fontello/fontello-social.svg#fontello") format('svg');
+  src: url("fontello-social.eot");
+  src: url("fontello-social.eot?#iefix") format('embedded-opentype'), url("fontello-social.woff") format('woff'), url("fontello-social.ttf") format('truetype'), url("fontello-social.svg#fontello") format('svg');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'fontello-circle';
-  src: url('fontello/fontello-circle.eot?49961091');
-  src: url('fontello/fontello-circle.eot?49961091#iefix') format('embedded-opentype'),
-       url('fontello/fontello-circle.woff?49961091') format('woff'),
-       url('fontello/fontello-circle.ttf?49961091') format('truetype'),
-       url('fontello/fontello-circle.svg?49961091#fontello') format('svg');
+  src: url('fontello-circle.eot?49961091');
+  src: url('fontello-circle.eot?49961091#iefix') format('embedded-opentype'),
+       url('fontello-circle.woff?49961091') format('woff'),
+       url('fontello-circle.ttf?49961091') format('truetype'),
+       url('fontello-circle.svg?49961091#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "budicon";
-  src:url("budicons/budicon.eot");
-  src:url("budicons/budicon.eot?#iefix") format("embedded-opentype"),
-    url("budicons/budicon.woff") format("woff"),
-    url("budicons/budicon.ttf") format("truetype"),
-    url("budicons/budicon.svg#budicon") format("svg");
+  src:url("budicon.eot");
+  src:url("budicon.eot?#iefix") format("embedded-opentype"),
+    url("budicon.woff") format("woff"),
+    url("budicon.ttf") format("truetype"),
+    url("budicon.svg#budicon") format("svg");
   font-weight: normal;
   font-style: normal;
 
@@ -40,10 +40,10 @@
 
 @font-face {
 	font-family: 'elemis';
-	src:url('elemis/elemis.eot?-yfjv6u');
-	src:url('elemis/elemis.eot?#iefix-yfjv6u') format('embedded-opentype'),
-		url('elemis/elemis.woff?-yfjv6u') format('woff'),
-		url('elemis/elemis.ttf?-yfjv6u') format('truetype'),
+	src:url('elemis.eot?-yfjv6u');
+	src:url('elemis.eot?#iefix-yfjv6u') format('embedded-opentype'),
+		url('elemis.woff?-yfjv6u') format('woff'),
+		url('elemis.ttf?-yfjv6u') format('truetype'),
 		url('elemis/elemis.svg?-yfjv6u#elemis') format('svg');
 	font-weight: normal;
 	font-style: normal;
